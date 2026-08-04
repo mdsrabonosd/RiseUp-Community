@@ -1,0 +1,99 @@
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\appsettings.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.staticwebassets.runtime.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.staticwebassets.endpoints.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.exe
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.deps.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.runtimeconfig.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.dll
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.pdb
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.AssemblyInfo.cs
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.sourcelink.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\scopedcss\bundle\RiseUp Community.styles.css
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\scopedcss\projectbundle\RiseUp Community.bundle.scp.css
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\95bjxpdzhr-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\gtuqay5khh-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\7nz4ztn0ll-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\5aidxcm2et-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\tid2autywp-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\g9iweflncr-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\c9ieli5h5l-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\4d4h1r2mhw-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\xt8hxvims2-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\f8pmzi5927-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\nxsnxdlw9a-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\mxm9lk6qcg-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\6ukw4ss3l4-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\8wzbtdwryc-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\5qe804jnac-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\ws32f5xl03-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\nhxmw9jqz5-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\2w3n8m0fb8-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\bjheo6spc7-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\yngv6i4ffn-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\87wdp8k7ak-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\gda7c4sxa6-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\oza0ox2key-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\e9cbr9iz5y-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\fwrdjhwux0-{0}-06098lyss8-06098lyss8.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\rkvbaforyb-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\evsr195o47-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\7eq8bz7i5q-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\qipb59uw8v-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\5c79p198s8-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\46k9g1n32m-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\cozxfcll5f-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\45c0vsqq44-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\8tjgebh01k-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\x54i7sx6fp-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\1k1ivgdhpy-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\3bkayriq66-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\064fjmp0yu-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\3u8jj86cdw-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\i9p63l1m5j-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\8d6n46z4kc-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\hnnf0i3qkm-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\svw98lvw6k-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\6z0lqifaj9-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\y1td8vl11d-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\3xxobyb6tb-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\zuolb3igim-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\knt0ckqgm1-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\4yapat3zpv-{0}-356vix0kms-356vix0kms.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\ahsqbtux74-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\sdq8sez34v-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\pggqmykcb2-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\cjc4u67ry7-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\8yzp80q8g5-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\hrjnbzwqg2-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\2h287vrvlm-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\itfzu22p72-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\ctkfy0j7la-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\7dwoknljjw-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\ch5vt6ota0-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\w596kv76v0-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\mbbmxzpif5-{0}-fsjf20g8bq-fsjf20g8bq.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\0r8hahdeht-{0}-fsjf20g8bq-fsjf20g8bq.gz
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.dll
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\refint\RiseUp Community.dll
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.pdb
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.genruntimeconfig.cache
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\ref\RiseUp Community.dll
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\0bypw0800q-{0}-tw2yefwrd9-tw2yefwrd9.gz
