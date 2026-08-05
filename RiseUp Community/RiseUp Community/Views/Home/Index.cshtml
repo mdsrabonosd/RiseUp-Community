@@ -1,147 +1,100 @@
-﻿<div class="col-lg-6 text-center text-lg-start fade-in-left">
-
-    <span class="badge bg-primary-subtle text-primary border border-primary px-3 py-2 rounded-pill mb-3 animate-pulse">
-        🚀 Welcome to RiseUp
-    </span>
-
-    <h1 class="display-3 fw-bold text-white mb-4">
-        Welcome, Future
-        <span class="gradient-text d-block">
-            Founder.
-        </span>
-
-        Build • Connect • Grow
-    </h1>
-
-    <p class="lead text-white-50 mb-4">
-        RiseUp is an all-in-one startup ecosystem where innovative
-        <strong class="text-white">Founders</strong>,
-        trusted
-        <strong class="text-white">Investors</strong>,
-        and experienced
-        <strong class="text-white">Mentors</strong>
-        collaborate to transform ideas into successful businesses.
-    </p>
-
-    <div class="d-flex gap-3 flex-wrap">
-
-        <a asp-controller="Account"
-           asp-action="Register"
-           class="btn btn-primary btn-lg rounded-pill px-5 shadow-glow">
-
-            <i class="bi bi-rocket-takeoff me-2"></i>
-            Get Started
-        </a>
-
-        <a asp-controller="Home"
-           asp-action="About"
-           class="btn btn-outline-light btn-lg rounded-pill px-5">
-
-            Learn More
-        </a>
-
-    </div>
-
-    <div class="d-flex gap-5 mt-5">
-
-        <div>
-            <h3 class="text-primary fw-bold mb-0">@Model.TotalStartups+</h3>
-            <small class="text-white-50">Ideas Shared</small>
-        </div>
-
-        <div>
-            <h3 class="text-success fw-bold mb-0">@Model.TotalInvestors+</h3>
-            <small class="text-white-50">Active Investors</small>
-        </div>
-
-        <div>
-            <h3 class="text-info fw-bold mb-0">@Model.TotalMentors+</h3>
-            <small class="text-white-50">Expert Mentors</small>
-        </div>
-
-    </div>
-
-</div>
-<div class="hero-visual-card p-4 mx-auto floating-animation">
-
-    <div class="welcome-card">
-
-        <div class="icon-circle bg-primary mb-3">
-            <i class="bi bi-stars text-white fs-2"></i>
-        </div>
-
-        <h3 class="text-white fw-bold">
-            Welcome Founder 👋
-        </h3>
-
-        <p class="text-white-50">
-            Your startup journey starts here.
-            Connect with investors,
-            receive mentorship,
-            and scale your business.
-        </p>
-
-    </div>
-
-    <hr class="border-secondary" />
-
-    <div class="row g-3">
-
-        <div class="col-4">
-
-            <div class="role-pill">
-
-                <i class="bi bi-lightbulb-fill text-warning fs-2"></i>
-
-                <div>
-                    <strong>Founder</strong>
-                    <small>Create Startup</small>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-4">
-
-            <div class="role-pill">
-
-                <i class="bi bi-cash-stack text-success fs-2"></i>
-
-                <div>
-                    <strong>Investor</strong>
-                    <small>Fund Ideas</small>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-4">
-
-            <div class="role-pill">
-
-                <i class="bi bi-person-workspace text-info fs-2"></i>
-
-                <div>
-                    <strong>Mentor</strong>
-                    <small>Guide Founders</small>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-body{
-
-background:
-radial-gradient(circle at top left,#3b82f6 0%,transparent 30%),
-radial-gradient(circle at bottom right,#8b5cf6 0%,transparent 35%),
-#09090b;
-
-overflow-x:hidden;
-
+﻿@model RiseUp.Web.Models.LandingViewModel
+@{
+    ViewData["Title"] = "RiseUp";
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+            body {
+                margin: 0;
+                background: linear-gradient(135deg,#0b1020,#111827,#1e3a8a);
+                color: #fff;
+                font-family: Segoe UI,sans-serif
+            }
+
+            .hero {
+                min-height: 100vh;
+                display: flex;
+                align-items: center
+            }
+
+            .glass {
+                background: rgba(255,255,255,.08);
+                backdrop-filter: blur(12px);
+                border: 1px solid rgba(255,255,255,.15);
+                border-radius: 22px
+            }
+
+            .gradient {
+                background: linear-gradient(90deg,#38bdf8,#6366f1,#a855f7);
+                -webkit-background-clip: text;
+                color: transparent
+            }
+
+            .role {
+                padding: 18px;
+                border-radius: 18px;
+                background: rgba(255,255,255,.05);
+                transition: .3s
+            }
+
+                .role:hover {
+                    transform: translateY(-6px)
+                }
+
+            .stat {
+                font-size: 2rem;
+                font-weight: bold
+            }
+
+            footer {
+                border-top: 1px solid rgba(255,255,255,.15)
+            }
+    </style>
+</head>
+<body>
+    <div class="container hero">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <span class="badge bg-primary mb-3">🚀 Welcome to RiseUp</span>
+                <h1 class="display-3 fw-bold">Welcome Future <span class="gradient">Founder</span></h1>
+                <p class="lead text-light">Connect with Investors, Mentors and build your startup faster than ever.</p>
+                <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg rounded-pill me-2">Get Started</a>
+                <a asp-controller="Account" asp-action="Login" class="btn btn-outline-light btn-lg rounded-pill">Login</a>
+                <div class="row mt-5">
+                    <div class="col"><div class="stat">@Model.TotalStartups+</div><small>Startups</small></div>
+                    <div class="col"><div class="stat">@Model.TotalInvestors+</div><small>Investors</small></div>
+                    <div class="col"><div class="stat">@Model.TotalMentors+</div><small>Mentors</small></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="glass p-4">
+                    <h3>Live Startup Ecosystem</h3>
+                    <p>Everything you need in one place.</p>
+                    <div class="row g-3">
+                        <div class="col-md-4"><div class="role text-center"><i class="bi bi-lightbulb-fill fs-1 text-warning"></i><h5>Founder</h5><p>Create startup profile</p></div></div>
+                        <div class="col-md-4"><div class="role text-center"><i class="bi bi-cash-stack fs-1 text-success"></i><h5>Investor</h5><p>Fund innovation</p></div></div>
+                        <div class="col-md-4"><div class="role text-center"><i class="bi bi-person-workspace fs-1 text-info"></i><h5>Mentor</h5><p>Guide founders</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Why RiseUp?</h2>
+        <div class="row g-4">
+            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-rocket fs-1"></i><h5>Launch</h5><p>Share your startup idea.</p></div></div>
+            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-search fs-1"></i><h5>Discover</h5><p>Find mentors & investors.</p></div></div>
+            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-people fs-1"></i><h5>Network</h5><p>Build valuable connections.</p></div></div>
+            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-graph-up-arrow fs-1"></i><h5>Grow</h5><p>Scale your business.</p></div></div>
+        </div>
+    </section>
+    <footer class="py-4 text-center">
+        <p>© @DateTime.Now.Year RiseUp - Connect • Innovate • Grow</p>
+    </footer>
+</body></html>
