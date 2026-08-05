@@ -3,7 +3,7 @@
     ViewData["Title"] = "RiseUp";
 }
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -14,87 +14,254 @@
                 margin: 0;
                 background: linear-gradient(135deg,#0b1020,#111827,#1e3a8a);
                 color: #fff;
-                font-family: Segoe UI,sans-serif
+                font-family: Segoe UI, sans-serif;
+                overflow-x: hidden;
+            }
+
+            /* Top Header Navbar in Corner */
+            .top-navbar {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 100;
+                padding: 20px 0;
             }
 
             .hero {
                 min-height: 100vh;
                 display: flex;
-                align-items: center
+                align-items: center;
+                padding-top: 80px;
             }
 
             .glass {
                 background: rgba(255,255,255,.08);
                 backdrop-filter: blur(12px);
                 border: 1px solid rgba(255,255,255,.15);
-                border-radius: 22px
+                border-radius: 22px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .glass-card:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 12px 30px rgba(0,0,0,0.3);
             }
 
             .gradient {
                 background: linear-gradient(90deg,#38bdf8,#6366f1,#a855f7);
                 -webkit-background-clip: text;
-                color: transparent
+                color: transparent;
             }
 
             .role {
                 padding: 18px;
                 border-radius: 18px;
                 background: rgba(255,255,255,.05);
-                transition: .3s
+                transition: all 0.3s ease;
             }
 
                 .role:hover {
-                    transform: translateY(-6px)
+                    transform: translateY(-6px);
+                    background: rgba(255,255,255,.12);
                 }
 
             .stat {
                 font-size: 2rem;
-                font-weight: bold
+                font-weight: bold;
             }
 
             footer {
-                border-top: 1px solid rgba(255,255,255,.15)
+                border-top: 1px solid rgba(255,255,255,.15);
             }
+
+            /* --- ANIMATIONS --- */
+
+            /* Floating Animation for Visual Card */
+            .floating-anim {
+                animation: float 4s ease-in-out infinite;
+            }
+
+          /*  keyframes float {
+                0%, 100% {
+                    transform: translateY(0px);
+                }
+
+                50% {
+                    transform: translateY(-10px);
+                }
+            } */
+
+            /* Fade-in Animations */
+            .fade-in-left {
+                animation: fadeInLeft 0.8s ease-out forwards;
+            }
+
+            .fade-in-right {
+                animation: fadeInRight 0.8s ease-out forwards;
+            }
+
+            .fade-in-up {
+                animation: fadeInUp 1s ease-out forwards;
+            }
+
+          /*   keyframes fadeInLeft {
+                from {
+                    opacity: 0;
+                    transform: translateX(-30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            } */
+
+            keyframes fadeInRight {
+                from {
+                    opacity: 0;
+                    transform: translateX(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+
+            keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* Glow Effect for Primary Buttons */
+            .shadow-glow {
+                box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+                transition: box-shadow 0.3s ease;
+            }
+
+                .shadow-glow:hover {
+                    box-shadow: 0 0 25px rgba(99, 102, 241, 0.7);
+                }
     </style>
 </head>
 <body>
+
+    <!-- 1. Top Corner Navigation -->
+    <header class="top-navbar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="navbar-brand fw-bold fs-3 text-white d-flex align-items-center text-decoration-none">
+                <i class="bi bi-rocket-takeoff-fill text-primary me-2"></i>Rise<span class="gradient">Up</span>
+            </a>
+            <div class="d-flex gap-2">
+                <a asp-controller="Account" asp-action="Login" class="btn btn-primary rounded-pill px-4 shadow-glow">Login</a>
+@*                 <a asp-controller="Account" asp-action="Register" class="btn btn-primary rounded-pill px-4 shadow-glow">Register</a>
+ *@            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
     <div class="container hero">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6">
-                <span class="badge bg-primary mb-3">🚀 Welcome to RiseUp</span>
+
+            <!-- Left Text Content -->
+            <div class="col-lg-6 fade-in-left">
+                <span class="badge bg-primary mb-3 px-3 py-2 rounded-pill fs-6">🚀 Welcome to RiseUp</span>
                 <h1 class="display-3 fw-bold">Welcome Future <span class="gradient">Founder</span></h1>
                 <p class="lead text-light">Connect with Investors, Mentors and build your startup faster than ever.</p>
-                <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg rounded-pill me-2">Get Started</a>
-                <a asp-controller="Account" asp-action="Login" class="btn btn-outline-light btn-lg rounded-pill">Login</a>
-                <div class="row mt-5">
-                    <div class="col"><div class="stat">@Model.TotalStartups+</div><small>Startups</small></div>
-                    <div class="col"><div class="stat">@Model.TotalInvestors+</div><small>Investors</small></div>
-                    <div class="col"><div class="stat">@Model.TotalMentors+</div><small>Mentors</small></div>
+                <div class="mt-4">
+                    <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg rounded-pill me-2 px-4 shadow-glow">Get Started</a>
+                </div>
+
+                <div class="row mt-5 text-center text-md-start">
+                    <div class="col"><div class="stat gradient">@Model.TotalStartups+</div><small class="text-light-50">Startups</small></div>
+                    <div class="col"><div class="stat gradient">@Model.TotalInvestors+</div><small class="text-light-50">Investors</small></div>
+                    <div class="col"><div class="stat gradient">@Model.TotalMentors+</div><small class="text-light-50">Mentors</small></div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="glass p-4">
-                    <h3>Live Startup Ecosystem</h3>
-                    <p>Everything you need in one place.</p>
-                    <div class="row g-3">
-                        <div class="col-md-4"><div class="role text-center"><i class="bi bi-lightbulb-fill fs-1 text-warning"></i><h5>Founder</h5><p>Create startup profile</p></div></div>
-                        <div class="col-md-4"><div class="role text-center"><i class="bi bi-cash-stack fs-1 text-success"></i><h5>Investor</h5><p>Fund innovation</p></div></div>
-                        <div class="col-md-4"><div class="role text-center"><i class="bi bi-person-workspace fs-1 text-info"></i><h5>Mentor</h5><p>Guide founders</p></div></div>
+
+            <!-- Right Visual Ecosystem Card -->
+            <div class="col-lg-6 fade-in-right">
+                <div class="glass p-4 floating-anim">
+                    <h3 class="fw-bold">Live Startup Ecosystem</h3>
+                    <p class="text-white-50">Everything you need in one place.</p>
+                    <div class="row g-3 mt-2">
+                        <div class="col-md-4">
+                            <div class="role text-center">
+                                <i class="bi bi-lightbulb-fill fs-1 text-warning"></i>
+                                <h5 class="mt-2">Founder</h5>
+                                <p class="small text-white-50 mb-0">Create startup profile</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="role text-center">
+                                <i class="bi bi-cash-stack fs-1 text-success"></i>
+                                <h5 class="mt-2">Investor</h5>
+                                <p class="small text-white-50 mb-0">Fund innovation</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="role text-center">
+                                <i class="bi bi-person-workspace fs-1 text-info"></i>
+                                <h5 class="mt-2">Mentor</h5>
+                                <p class="small text-white-50 mb-0">Guide founders</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-    <section class="container py-5">
-        <h2 class="text-center mb-5">Why RiseUp?</h2>
+
+    <!-- 3. Why RiseUp Section -->
+    <section class="container py-5 fade-in-up">
+        <h2 class="text-center mb-5 fw-bold">Why <span class="gradient">RiseUp?</span></h2>
         <div class="row g-4">
-            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-rocket fs-1"></i><h5>Launch</h5><p>Share your startup idea.</p></div></div>
-            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-search fs-1"></i><h5>Discover</h5><p>Find mentors & investors.</p></div></div>
-            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-people fs-1"></i><h5>Network</h5><p>Build valuable connections.</p></div></div>
-            <div class="col-md-3"><div class="glass p-4 h-100"><i class="bi bi-graph-up-arrow fs-1"></i><h5>Grow</h5><p>Scale your business.</p></div></div>
+            <div class="col-md-3">
+                <div class="glass glass-card p-4 h-100 text-center">
+                    <i class="bi bi-rocket fs-1 text-primary mb-3 d-block"></i>
+                    <h5 class="fw-bold">Launch</h5>
+                    <p class="text-white-50 small mb-0">Share your startup idea with the community.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="glass glass-card p-4 h-100 text-center">
+                    <i class="bi bi-search fs-1 text-info mb-3 d-block"></i>
+                    <h5 class="fw-bold">Discover</h5>
+                    <p class="text-white-50 small mb-0">Find mentors & verified investors effortlessly.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="glass glass-card p-4 h-100 text-center">
+                    <i class="bi bi-people fs-1 text-warning mb-3 d-block"></i>
+                    <h5 class="fw-bold">Network</h5>
+                    <p class="text-white-50 small mb-0">Build valuable high-impact business connections.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="glass glass-card p-4 h-100 text-center">
+                    <i class="bi bi-graph-up-arrow fs-1 text-success mb-3 d-block"></i>
+                    <h5 class="fw-bold">Grow</h5>
+                    <p class="text-white-50 small mb-0">Scale your business with expert guidance.</p>
+                </div>
+            </div>
         </div>
     </section>
-    <footer class="py-4 text-center">
-        <p>© @DateTime.Now.Year RiseUp - Connect • Innovate • Grow</p>
+
+    <!-- 4. Footer -->
+    <footer class="py-4 text-center text-white-50">
+        <div class="container">
+            <p class="mb-0">© @DateTime.Now.Year RiseUp - Connect • Innovate • Grow</p>
+        </div>
     </footer>
-</body></html>
+
+</body>
+</html>
