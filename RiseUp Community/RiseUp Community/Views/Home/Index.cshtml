@@ -1,108 +1,147 @@
-﻿@model RiseUp.Web.Models.LandingViewModel
-@{
-    ViewData["Title"] = "RiseUp - Connect & Grow";
-}
+﻿<div class="col-lg-6 text-center text-lg-start fade-in-left">
 
-<div class="landing-wrapper d-flex flex-column justify-content-between min-vh-100">
+    <span class="badge bg-primary-subtle text-primary border border-primary px-3 py-2 rounded-pill mb-3 animate-pulse">
+        🚀 Welcome to RiseUp
+    </span>
 
-    <!-- 1. Top Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
-        <div class="container">
-            <a class="navbar-brand fw-bold fs-3 d-flex align-items-center" href="#">
-                <i class="bi bi-rocket-takeoff-fill text-primary me-2"></i>Rise<span class="text-primary">Up</span>
-            </a>
-            <div class="d-flex gap-3">
-                <a asp-controller="Account" asp-action="Login" class="btn btn-outline-light rounded-pill px-4">Login</a>
-                <a asp-controller="Account" asp-action="Register" class="btn btn-primary rounded-pill px-4 shadow-glow">Register</a>
-            </div>
+    <h1 class="display-3 fw-bold text-white mb-4">
+        Welcome, Future
+        <span class="gradient-text d-block">
+            Founder.
+        </span>
+
+        Build • Connect • Grow
+    </h1>
+
+    <p class="lead text-white-50 mb-4">
+        RiseUp is an all-in-one startup ecosystem where innovative
+        <strong class="text-white">Founders</strong>,
+        trusted
+        <strong class="text-white">Investors</strong>,
+        and experienced
+        <strong class="text-white">Mentors</strong>
+        collaborate to transform ideas into successful businesses.
+    </p>
+
+    <div class="d-flex gap-3 flex-wrap">
+
+        <a asp-controller="Account"
+           asp-action="Register"
+           class="btn btn-primary btn-lg rounded-pill px-5 shadow-glow">
+
+            <i class="bi bi-rocket-takeoff me-2"></i>
+            Get Started
+        </a>
+
+        <a asp-controller="Home"
+           asp-action="About"
+           class="btn btn-outline-light btn-lg rounded-pill px-5">
+
+            Learn More
+        </a>
+
+    </div>
+
+    <div class="d-flex gap-5 mt-5">
+
+        <div>
+            <h3 class="text-primary fw-bold mb-0">@Model.TotalStartups+</h3>
+            <small class="text-white-50">Ideas Shared</small>
         </div>
-    </nav>
 
-    <!-- 2. Hero Center Body -->
-    <main class="container my-auto py-3">
-        <div class="row align-items-center gy-4">
-
-            <!-- Left Text Content -->
-            <div class="col-lg-6 text-center text-lg-start fade-in-left">
-                <span class="badge bg-primary-subtle text-primary border border-primary px-3 py-2 rounded-pill mb-3 fw-semibold animate-pulse">
-                    🚀 Next-Gen Ecosystem
-                </span>
-                <h1 class="display-3 fw-extrabold text-white mb-3 lh-sm">
-                    Connect. Pitch. <br />
-                    <span class="gradient-text">Scale Faster.</span>
-                </h1>
-                <p class="lead text-white-50 mb-4 me-lg-4">
-                    The modern platform linking ambitious Founders with verified Investors and expert Mentors.
-                </p>
-                <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
-                    <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg rounded-pill px-4 py-3 shadow-glow fs-6">
-                        Join Platform <i class="bi bi-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-6 text-center fade-in-right position-relative">
-                <!-- ব্যাকগ্রাউন্ডে সফট শেডো আভা -->
-                <div class="bg-shape-glow"></div>
-
-                <div class="visual-card-wrapper">
-                    <!-- মেইন গ্লাস কার্ড -->
-                    <div class="hero-visual-card p-4 mx-auto floating-animation position-relative" style="z-index: 1;">
-
-                        <!-- কার্ডের ভেতরে হালকা ওয়াটারমার্ক আইকন/শেডো -->
-                        <i class="bi bi-graph-up-arrow position-absolute bottom-0 end-0 me-3 mb-2 text-white opacity-10" style="font-size: 8rem; pointer-events: none;"></i>
-
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div class="d-flex align-items-center gap-3">
-                                <div class="icon-circle bg-primary text-white shadow-glow">
-                                    <i class="bi bi-lightning-charge-fill fs-4"></i>
-                                </div>
-                                <div class="text-start">
-                                    <h6 class="mb-0 fw-bold text-white">Live Ecosystem</h6>
-                                    <small class="text-white-50">Active Networking</small>
-                                </div>
-                            </div>
-                            <span class="badge bg-success text-white px-2 py-1 shadow-sm">Online</span>
-                        </div>
-
-                        <!-- Role Options Preview -->
-                        <div class="role-preview-grid">
-                            <div class="role-pill">
-                                <i class="bi bi-lightbulb-fill text-warning fs-5"></i>
-                                <span>Founders</span>
-                            </div>
-                            <div class="role-pill">
-                                <i class="bi bi-cash-stack text-success fs-5"></i>
-                                <span>Investors</span>
-                            </div>
-                            <div class="role-pill">
-                                <i class="bi bi-person-workspace text-info fs-5"></i>
-                                <span>Mentors</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div>
+            <h3 class="text-success fw-bold mb-0">@Model.TotalInvestors+</h3>
+            <small class="text-white-50">Active Investors</small>
         </div>
-    </main>
 
-    <!-- 3. Bottom Compact Stats Footer -->
-    <footer class="container pb-4 pt-2">
-        <div class="row text-center border-top border-white border-opacity-10 pt-3 g-2 fade-in-up">
-            <div class="col-4">
-                <h4 class="fw-bold mb-0 gradient-text">@Model.TotalStartups+</h4>
-                <small class="text-white-50 fs-7">Startups</small>
-            </div>
-            <div class="col-4">
-                <h4 class="fw-bold mb-0 gradient-text">@Model.TotalInvestors+</h4>
-                <small class="text-white-50 fs-7">Investors</small>
-            </div>
-            <div class="col-4">
-                <h4 class="fw-bold mb-0 gradient-text">@Model.TotalMentors+</h4>
-                <small class="text-white-50 fs-7">Mentors</small>
-            </div>
+        <div>
+            <h3 class="text-info fw-bold mb-0">@Model.TotalMentors+</h3>
+            <small class="text-white-50">Expert Mentors</small>
         </div>
-    </footer>
+
+    </div>
 
 </div>
+<div class="hero-visual-card p-4 mx-auto floating-animation">
+
+    <div class="welcome-card">
+
+        <div class="icon-circle bg-primary mb-3">
+            <i class="bi bi-stars text-white fs-2"></i>
+        </div>
+
+        <h3 class="text-white fw-bold">
+            Welcome Founder 👋
+        </h3>
+
+        <p class="text-white-50">
+            Your startup journey starts here.
+            Connect with investors,
+            receive mentorship,
+            and scale your business.
+        </p>
+
+    </div>
+
+    <hr class="border-secondary" />
+
+    <div class="row g-3">
+
+        <div class="col-4">
+
+            <div class="role-pill">
+
+                <i class="bi bi-lightbulb-fill text-warning fs-2"></i>
+
+                <div>
+                    <strong>Founder</strong>
+                    <small>Create Startup</small>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-4">
+
+            <div class="role-pill">
+
+                <i class="bi bi-cash-stack text-success fs-2"></i>
+
+                <div>
+                    <strong>Investor</strong>
+                    <small>Fund Ideas</small>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-4">
+
+            <div class="role-pill">
+
+                <i class="bi bi-person-workspace text-info fs-2"></i>
+
+                <div>
+                    <strong>Mentor</strong>
+                    <small>Guide Founders</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+body{
+
+background:
+radial-gradient(circle at top left,#3b82f6 0%,transparent 30%),
+radial-gradient(circle at bottom right,#8b5cf6 0%,transparent 35%),
+#09090b;
+
+overflow-x:hidden;
+
+}
