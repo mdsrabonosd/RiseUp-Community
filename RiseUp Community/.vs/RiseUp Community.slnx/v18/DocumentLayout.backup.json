@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|solutionrelative:riseup community\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4557673-6A0C-183D-90E9-199B08FFEAAA}|RiseUp Community\\RiseUp Community.csproj|c:\\users\\user\\source\\repos\\riseup community\\riseup community\\riseup community\\models\\landingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,45 +59,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "RiseUp Community\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "RiseUp Community\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAADMBAAAAAAAAAAAYwGMBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-04T19:09:54.462Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RiseUp Community\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RiseUp Community\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T18:41:59.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "RiseUp Community\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "RiseUp Community\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowFQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-04T19:09:04.995Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Program.cs",
+              "RelativeDocumentMoniker": "RiseUp Community\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Program.cs*",
+              "RelativeToolTip": "RiseUp Community\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T18:39:36.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RiseUp Community\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RiseUp Community\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "RiseUp Community\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "RiseUp Community\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAAGEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-04T19:08:54.064Z",
+              "WhenOpened": "2026-08-05T18:30:10.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "RiseUp Community\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "RiseUp Community\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T18:29:21.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "RiseUp Community\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "RiseUp Community\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T18:28:10.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\appsettings.json",
+              "RelativeDocumentMoniker": "RiseUp Community\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\appsettings.json",
+              "RelativeToolTip": "RiseUp Community\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-05T18:27:27.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RiseUp Community\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RiseUp Community\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOYAAAAAAAAAAADwvwoBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T19:09:04.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "RiseUp Community\\Controllers\\HomeController.cs",
@@ -81,11 +156,36 @@
               "RelativeToolTip": "RiseUp Community\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T19:08:20.136Z"
+              "WhenOpened": "2026-08-04T19:08:20.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RiseUp Community\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RiseUp Community\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAAB4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-05T18:32:58.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RiseUp Community\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RiseUp Community\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T19:08:54.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LandingViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RiseUp Community\\RiseUp Community\\RiseUp Community\\Models\\LandingViewModel.cs",
               "RelativeDocumentMoniker": "RiseUp Community\\Models\\LandingViewModel.cs",

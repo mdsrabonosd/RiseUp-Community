@@ -1,12 +1,3 @@
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\appsettings.json
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.staticwebassets.runtime.json
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.staticwebassets.endpoints.json
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.exe
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.deps.json
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.runtimeconfig.json
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.dll
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.pdb
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rpswa.dswa.cache.json
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.AssemblyInfoInputs.cache
@@ -16,12 +7,22 @@ C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\ob
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.RazorAssemblyInfo.cache
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.RazorAssemblyInfo.cs
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.sourcelink.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\appsettings.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.staticwebassets.runtime.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.staticwebassets.endpoints.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.exe
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.deps.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.runtimeconfig.json
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.dll
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\bin\Debug\net10.0\RiseUp Community.pdb
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\scopedcss\bundle\RiseUp Community.styles.css
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\scopedcss\projectbundle\RiseUp Community.bundle.scp.css
+C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\0bypw0800q-{0}-iyji20xl8y-iyji20xl8y.gz
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\95bjxpdzhr-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\gtuqay5khh-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\7nz4ztn0ll-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,4 +97,3 @@ C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\ob
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.pdb
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\RiseUp Community.genruntimeconfig.cache
 C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\ref\RiseUp Community.dll
-C:\Users\User\source\repos\RiseUp Community\RiseUp Community\RiseUp Community\obj\Debug\net10.0\compressed\0bypw0800q-{0}-tw2yefwrd9-tw2yefwrd9.gz
