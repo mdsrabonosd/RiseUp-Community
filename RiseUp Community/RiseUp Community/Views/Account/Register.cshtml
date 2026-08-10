@@ -1,6 +1,6 @@
 ﻿@model RiseUp.Web.Models.RegisterViewModel
 @{
-    ViewData["Title"] = "Join RiseUp - Register";
+    ViewData["Title"] = "Register - RiseUp";
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@
     <style>
             body {
                 margin: 0;
-                background: linear-gradient(135deg, #0b1020, #111827, #1e3a8a);
+                background: linear-gradient(135deg,#0b1020,#111827,#1e3a8a);
                 color: #fff;
                 font-family: 'Segoe UI', sans-serif;
                 min-height: 100vh;
@@ -25,43 +25,42 @@
                 padding: 20px 0;
             }
 
-            .glass-card {
-                background: rgba(255, 255, 255, 0.08);
+            .glass {
+                background: rgba(255,255,255,.08);
                 backdrop-filter: blur(12px);
-                border: 1px solid rgba(255, 255, 255, 0.15);
+                border: 1px solid rgba(255,255,255,.15);
                 border-radius: 22px;
-                box-shadow: 0 15px 35px rgba(0,0,0,0.4);
             }
 
             .gradient {
-                background: linear-gradient(90deg, #38bdf8, #6366f1, #a855f7);
+                background: linear-gradient(90deg,#38bdf8,#6366f1,#a855f7);
                 -webkit-background-clip: text;
                 color: transparent;
             }
 
-            /* Role Selection Card Styles */
-            .role-option {
-                border: 2px solid rgba(255, 255, 255, 0.15);
+            /* Role Selection Card Styling */
+            .role-card {
+                padding: 16px 10px;
                 border-radius: 16px;
-                background: rgba(255, 255, 255, 0.04);
-                padding: 16px 12px;
+                background: rgba(255,255,255,.05);
+                border: 2px solid rgba(255,255,255,.12);
                 cursor: pointer;
                 transition: all 0.3s ease;
                 text-align: center;
             }
 
-                .role-option:hover {
-                    background: rgba(255, 255, 255, 0.1);
-                    transform: translateY(-3px);
+                .role-card:hover {
+                    transform: translateY(-4px);
+                    background: rgba(255,255,255,.12);
                 }
 
-                .role-option.active {
+                .role-card.active {
                     border-color: #6366f1;
-                    background: rgba(99, 102, 241, 0.2);
+                    background: rgba(99, 102, 241, 0.25);
                     box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
                 }
 
-            /* Form Inputs Styling */
+            /* Custom Input Fields */
             .form-control-custom {
                 background: rgba(255, 255, 255, 0.06);
                 border: 1px solid rgba(255, 255, 255, 0.15);
@@ -90,27 +89,16 @@
                     box-shadow: 0 0 25px rgba(99, 102, 241, 0.7);
                 }
 
-            /* Animation */
             .fade-in-up {
                 animation: fadeInUp 0.8s ease-out forwards;
             }
 
-            /* keyframes fadeInUp {
-                from {
-                    opacity: 0;
-                    transform: translateY(20px);
-                }
-
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            } */
+           
     </style>
 </head>
 <body>
 
-    <!-- Header Navigation -->
+    <!-- Top Navbar -->
     <header class="top-navbar">
         <div class="container d-flex justify-content-between align-items-center">
             <a asp-controller="Home" asp-action="Index" class="navbar-brand fw-bold fs-3 text-white d-flex align-items-center text-decoration-none">
@@ -120,66 +108,67 @@
         </div>
     </header>
 
-    <!-- Main Registration Container -->
+    <!-- Main Content -->
     <main class="container my-auto py-4 fade-in-up">
         <div class="row justify-content-center">
             <div class="col-lg-7 col-md-9">
-                <div class="glass-card p-4 p-md-5">
+                <div class="glass p-4 p-md-5">
 
                     <div class="text-center mb-4">
                         <h2 class="fw-bold text-white mb-2">Create Your Account</h2>
-                        <p class="text-white-50">Choose your role and join the RiseUp startup network.</p>
+                        <p class="text-white-50">Select your role and start your startup journey.</p>
                     </div>
 
                     <form asp-controller="Account" asp-action="Register" method="post">
                         @Html.AntiForgeryToken()
-
                         <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-                        <!-- 1. Role Selection Grid -->
+                        <!-- Role Selection -->
                         <div class="mb-4">
-                            <label class="form-label text-white fw-semibold mb-3">Select Your Role</label>
+                            <label class="form-label text-white fw-semibold mb-3">Select Role</label>
                             <input type="hidden" asp-for="UserRole" id="selectedRole" />
 
                             <div class="row g-3">
                                 <div class="col-4">
-                                    <div class="role-option active" onclick="selectRole('Founder', this)">
+                                    <div class="role-card active" onclick="selectRole('Founder', this)">
                                         <i class="bi bi-lightbulb-fill fs-2 text-warning d-block mb-1"></i>
                                         <span class="fw-bold d-block text-white">Founder</span>
-                                        <small class="text-white-50 d-none d-sm-block">Build & Scale</small>
+                                        <small class="text-white-50 d-none d-sm-block">Build Startup</small>
                                     </div>
                                 </div>
                                 <div class="col-4">
-                                    <div class="role-option" onclick="selectRole('Investor', this)">
+                                    <div class="role-card" onclick="selectRole('Investor', this)">
                                         <i class="bi bi-cash-stack fs-2 text-success d-block mb-1"></i>
                                         <span class="fw-bold d-block text-white">Investor</span>
-                                        <small class="text-white-50 d-none d-sm-block">Fund Projects</small>
+                                        <small class="text-white-50 d-none d-sm-block">Provide Capital</small>
                                     </div>
                                 </div>
                                 <div class="col-4">
-                                    <div class="role-option" onclick="selectRole('Mentor', this)">
+                                    <div class="role-card" onclick="selectRole('Mentor', this)">
                                         <i class="bi bi-person-workspace fs-2 text-info d-block mb-1"></i>
                                         <span class="fw-bold d-block text-white">Mentor</span>
-                                        <small class="text-white-50 d-none d-sm-block">Guide Startups</small>
+                                        <small class="text-white-50 d-none d-sm-block">Guide Team</small>
                                     </div>
                                 </div>
                             </div>
                             <span asp-validation-for="UserRole" class="text-danger small"></span>
                         </div>
 
-                        <!-- 2. Inputs Grid -->
+                        <!-- Full Name -->
                         <div class="mb-3">
                             <label asp-for="FullName" class="form-label text-white-50"></label>
                             <input asp-for="FullName" class="form-control form-control-custom" placeholder="e.g. John Doe" />
                             <span asp-validation-for="FullName" class="text-danger small"></span>
                         </div>
 
+                        <!-- Email -->
                         <div class="mb-3">
                             <label asp-for="Email" class="form-label text-white-50"></label>
                             <input asp-for="Email" class="form-control form-control-custom" placeholder="name@example.com" />
                             <span asp-validation-for="Email" class="text-danger small"></span>
                         </div>
 
+                        <!-- Passwords -->
                         <div class="row g-3 mb-4">
                             <div class="col-md-6">
                                 <label asp-for="Password" class="form-label text-white-50"></label>
@@ -193,7 +182,6 @@
                             </div>
                         </div>
 
-                        <!-- 3. Submit Button -->
                         <button type="submit" class="btn btn-primary w-100 py-3 rounded-pill fw-bold shadow-glow fs-6">
                             Create Account <i class="bi bi-arrow-right ms-2"></i>
                         </button>
@@ -205,27 +193,18 @@
     </main>
 
     <!-- Footer -->
-    <footer class="py-3 text-center text-white-50">
+    <footer class="py-3 text-center text-white-50 border-top-0">
         <div class="container">
             <p class="mb-0 small">© @DateTime.Now.Year RiseUp - Connect • Innovate • Grow</p>
         </div>
     </footer>
 
-    <!-- JavaScript for Role Selection -->
     <script>
             function selectRole(roleName, element) {
-                // ১. সব অপশন থেকে 'active' ক্লাস রিমুভ করা
-                document.querySelectorAll('.role-option').forEach(el => {
-                    el.classList.remove('active');
-                });
-
-                // ২. সিলেক্ট করা অপশনে 'active' ক্লাস অ্যাড করা
+                document.querySelectorAll('.role-card').forEach(el => el.classList.remove('active'));
                 element.classList.add('active');
-
-                // ৩. Hidden input ফিল্ডে ভ্যালু সেট করা
                 document.getElementById('selectedRole').value = roleName;
             }
     </script>
-
 </body>
 </html>
