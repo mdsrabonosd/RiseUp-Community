@@ -1,30 +1,28 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using RiseUp.Web.Models;
+using RiseUp_Community.Models;
 
-namespace RiseUp.Web.Controllers
+namespace RiseUp_Community.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
         public AccountController(
-            UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _roleManager = roleManager;
         }
 
         // GET: /Account/Register
         [HttpGet]
         public IActionResult Register()
         {
-            return View(new RegisterViewModel());
+            return View();
         }
 
         // POST: /Account/Register
@@ -34,25 +32,29 @@ namespace RiseUp.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser
+                {
+                    UserName = model.Email,
+                    Email = model.Email,
+                    FullName = model.FullName,
+                    Role = model.Role
+                };
+
                 var result = await _userManager.CreateAsync(user, model.Password);
 
                 if (result.Succeeded)
                 {
-                    // রোল ডাটাবেজে না থাকলে তৈরি হবে
-                    if (!await _roleManager.RoleExistsAsync(model.UserRole))
+                    // 1. Identity System-এ Role Assign করা
+                    if (!string.IsNullOrEmpty(model.Role))
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(model.UserRole));
+                        await _userManager.AddToRoleAsync(user, model.Role);
                     }
 
-                    // ইউজারকে রোল প্রদান
-                    await _userManager.AddToRoleAsync(user, model.UserRole);
-
-                    // অ্যাকাউন্ট তৈরির পর স্বয়ংক্রিয় লগইন
+                    // 2. Auto Sign-in
                     await _signInManager.SignInAsync(user, isPersistent: false);
 
-                    // রেজিস্ট্রেশন শেষে রোল অনুযায়ী রিডাইরেক্ট
-                    return RedirectToUserDashboard(model.UserRole);
+                    // 3. Role অনুযায়ী Redirect
+                    return await RedirectToDashboardByUser(user);
                 }
 
                 foreach (var error in result.Errors)
@@ -66,45 +68,31 @@ namespace RiseUp.Web.Controllers
 
         // GET: /Account/Login
         [HttpGet]
-        public IActionResult Login(string? returnUrl = null)
+        public IActionResult Login()
         {
-            ViewData["ReturnUrl"] = returnUrl;
-            return View(new LoginViewModel());
+            return View();
         }
 
         // POST: /Account/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            ViewData["ReturnUrl"] = returnUrl;
-
             if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(
-                    model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                    model.Email,
+                    model.Password,
+                    model.RememberMe,
+                    lockoutOnFailure: false);
 
                 if (result.Succeeded)
                 {
-                    // ReturnUrl থাকলে আগে সেখানে পাঠাবে
-                    if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl) && returnUrl != "/")
-                    {
-                        return LocalRedirect(returnUrl);
-                    }
-
-                    // ইউজার এর রোল বের করে সংশ্লিষ্ট ড্যাশবোর্ডে রিডাইরেক্ট
                     var user = await _userManager.FindByEmailAsync(model.Email);
                     if (user != null)
                     {
-                        var roles = await _userManager.GetRolesAsync(user);
-                        var primaryRole = roles.FirstOrDefault();
-
-                        if (!string.IsNullOrEmpty(primaryRole))
-                        {
-                            return RedirectToUserDashboard(primaryRole);
-                        }
+                        return await RedirectToDashboardByUser(user);
                     }
-
                     return RedirectToAction("Index", "Home");
                 }
 
@@ -123,16 +111,28 @@ namespace RiseUp.Web.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        // Helper method: রোল অনুযায়ী ড্যাশবোর্ড রিডাইরেকশন হ্যান্ডলার
-        private IActionResult RedirectToUserDashboard(string role)
+        // Helper Method: নিখুঁতভাবে Role চেক করে ড্যাশবোর্ডে পাঠানোর জন্য
+        private async Task<IActionResult> RedirectToDashboardByUser(ApplicationUser user)
         {
-            return role switch
+            // Identity Roles থেকে চেক করা
+            var roles = await _userManager.GetRolesAsync(user);
+            string userRole = roles.FirstOrDefault() ?? user.Role ?? "";
+
+            if (userRole.Equals("Investor", StringComparison.OrdinalIgnoreCase))
             {
-                "Founder" => RedirectToAction("Dashboard", "Founder"),
-                "Investor" => RedirectToAction("Dashboard", "Investor"),
-                "Mentor" => RedirectToAction("Dashboard", "Mentor"),
-                _ => RedirectToAction("Index", "Home")
-            };
+                return RedirectToAction("Investor", "Dashboard");
+            }
+            else if (userRole.Equals("Startup", StringComparison.OrdinalIgnoreCase) ||
+                     userRole.Equals("Founder", StringComparison.OrdinalIgnoreCase))
+            {
+                return RedirectToAction("Dashboard", "Founder");
+            }
+            else if (userRole.Equals("Mentor", StringComparison.OrdinalIgnoreCase))
+            {
+                return RedirectToAction("Index", "Mentor"); // অথবা Mentor এর নির্দিষ্ট Action
+            }
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }
