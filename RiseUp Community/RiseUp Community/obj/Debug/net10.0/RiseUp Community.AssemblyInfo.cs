@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RiseUp Community")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b2d7a7e6fe8e51256a35437679bf7c6faf82fcf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a8a86a567a41c35a7dbaa7d3cfee8820534f166")]
 [assembly: System.Reflection.AssemblyProductAttribute("RiseUp Community")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RiseUp Community")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
